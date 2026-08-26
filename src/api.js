@@ -1,4 +1,4 @@
-const API_URL = 'https://99.155.254.105:8263';
+const API_URL = 'https://api.nebochod.org';
 
 async function apiRequest(path, options = {}) {
     const response = await fetch(`${API_URL}${path}`, {
